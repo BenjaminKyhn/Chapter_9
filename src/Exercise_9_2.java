@@ -7,10 +7,10 @@ public class Exercise_9_2 {
 }
 
 class Stock{
-    String symbol;
-    String name;
-    double previousClosingPrice;
-    double currentPrice;
+    private String symbol;
+    private String name;
+    private double previousClosingPrice;
+    private double currentPrice;
 
     Stock(String specifiedSymbol, String specifiedName){
         symbol = specifiedSymbol;
