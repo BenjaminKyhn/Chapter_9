@@ -1,4 +1,19 @@
+import java.util.Scanner;
+
 public class Exercise_9_11 {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.println("Enter values for a, b, c, d, e, & f: ");
+        LinearEquation linearEquation = new LinearEquation(input.nextDouble(), input.nextDouble(), input.nextDouble(), input.nextDouble(), input.nextDouble(), input.nextDouble());
+
+        if (!linearEquation.isSolvable())
+            System.out.println("The equation has no solution");
+        else {
+            System.out.println("x is: " + linearEquation.getX());
+            System.out.println("y is: " + linearEquation.getY());
+        }
+
+    }
 }
 
 class LinearEquation {
