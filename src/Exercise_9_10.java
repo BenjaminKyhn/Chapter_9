@@ -3,7 +3,6 @@ import java.util.Scanner;
 public class Exercise_9_10 {
     public static void main(String[] args) {
 
-
         System.out.println("Enter values for a, b and c: ");
         Scanner input = new Scanner(System.in);
         QuadraticEquation quadraticEquation = new QuadraticEquation(input.nextDouble(), input.nextDouble(), input.nextDouble());

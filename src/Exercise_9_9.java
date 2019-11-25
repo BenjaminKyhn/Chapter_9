@@ -21,48 +21,48 @@ class RegularPolygon{
 
     RegularPolygon(){}
 
-    RegularPolygon(int newN, double newSide){
-        n = newN;
-        side = newSide;
+    RegularPolygon(int n, double side){
+        this.n = n;
+        this.side = side;
     }
 
-    RegularPolygon(int newN, double newSide, double newX, double newY){
-        n = newN;
-        side = newSide;
-        x = newX;
-        y = newY;
+    RegularPolygon(int n, double side, double x, double y){
+        this.n = n;
+        this.side = side;
+        this.x = x;
+        this.y = y;
     }
 
     int getN(){
         return n;
     }
 
-    void setN(int newN){
-        n = newN;
+    void setN(int n){
+        this.n = n;
     }
 
     double getSide(){
         return side;
     }
 
-    void setSide(double newSide){
-        side = newSide;
+    void setSide(double side){
+        this.side = side;
     }
 
     double getX(){
         return x;
     }
 
-    void setX(double newX){
-        x = newX;
+    void setX(double x){
+        this.x = x;
     }
 
     double getY(){
         return y;
     }
 
-    void setY(double newY){
-        y = newY;
+    void setY(double y){
+        this.y = y;
     }
 
     double getPerimeter(){
